@@ -12,7 +12,7 @@ This repository contains:
 * A Jupyter Notebook with code analyzing and modeling the data from zillow_data.csv
 * A PowerPoint presentation explaining the data to a prospective business audience and the slides as a PDF
 * Some .csv files of reshaped, reformatted and forecasted Zillow data from various stages in the project
-* Two .png images files of graphs made in the notebook and used in the PowerPoint
+* Three .png images files of graphs made in the notebook and used in the PowerPoint
 * A LICENSE file, detailing how or whether this project's code may be repurposed
 * This README file 
 
@@ -22,7 +22,7 @@ The notebook reformats the data into DataFrames and then uses SARIMAX in statsmo
 
 ### Figures
 
-The .png images are solely to compare the 24-step (two years) forecasted values for the data as an average timeseries (Average Forecast.png) and to see the confidence intervals of the 20 RegionID's with the smallest mean-squared error over the same period (20 RegionID Forecasts.png).
+The .png images are to compare the 24-step (two years) forecasted values for the data as an average timeseries (Average Forecast.png) and to see the confidence intervals of the 20 RegionID's with the smallest mean-squared error over the same period (20 RegionID Forecasts.png).  The TopFiveDataandForecasts.png is to look at the forecasts in the context of the historical data for the top five selected regions.
 
 ### Files
 
