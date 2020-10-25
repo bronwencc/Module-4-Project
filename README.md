@@ -21,7 +21,8 @@ The notebook reformats the data into DataFrames and then uses SARIMAX in statsmo
 
 ### Figures
 
-The PNG images are to compare the 24-step (two years) forecasted values for the data as an average timeseries (Average Forecast.png) and to see the confidence intervals of the 20 RegionID's with the smallest mean-squared error over the same period (20 RegionID Forecasts.png).  The TopFiveDataandForecasts.png is to look at the forecasts in the context of the historical data for the top five selected regions.
+The PNG images are to compare the 24-step (two years) forecasted values for the data as an average timeseries ([Average Forecast.png](https://github.com/bronwencc/Module-4-Project/blob/master/files/Average-Forecast.png)) and to see the confidence intervals of the 20 RegionID's with the smallest mean-squared error over the same period ([20 RegionID Forecasts.png](https://github.com/bronwencc/Module-4-Project/blob/master/files/20-RegionID-Forecasts.png)).
+The [TopFiveDataandForecasts.png](https://github.com/bronwencc/Module-4-Project/blob/master/files/TopFiveDataandForecasts.png) is to look at the forecasts in the context of the historical data for the top five selected regions.
 
 ### Files
 
