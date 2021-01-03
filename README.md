@@ -10,7 +10,7 @@ This is Bronwen C.'s submission for Module 4's Final Project, using house price 
 This repository contains:
 * Data from Zillow provided by the course in zillow_data.csv
 * A [Jupyter Notebook](https://github.com/bronwencc/Module-4-Project/blob/master/mod_4_final.ipynb) with code analyzing and modeling the data from zillow_data.csv
-* A PDF of PowerPoint presentation slides explaining the data to a prospective business audience
+* A [PDF](https://github.com/bronwencc/Module-4-Project/blob/master/FiveZipCodes.pdf) of PowerPoint presentation slides explaining the data to a prospective business audience
 * Some CSV files of reshaped, reformatted and forecasted Zillow data from various stages in the project
 * Three PNG images files of graphs made in the notebook and used in the PowerPoint
 * A [LICENSE file](https://github.com/bronwencc/Module-4-Project/blob/master/LICENSE), detailing how or whether this project's code may be repurposed
