@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is Bronwen C.'s submission for Module 4's Final Project, using house price data from Zillow, provided by Learn.co and The Flatiron School to model, predict and then choose **the top five** zipcodes in which to invest.
+This was my submission for The Flatiron School's Module 4 Final Project, using house price data from Zillow provided by Learn.co and The Flatiron School. I used timeseries analysis to model, predict and determine the top five zipcodes in which to invest.
 
 ## Project
 This repository contains:
@@ -17,7 +17,7 @@ This repository contains:
 
 ### Notebook Summary
 
-The notebook reformats the data into DataFrames and then uses SARIMAX in statsmodels to make predictions a few times.  The first time is to find which order and seasonal order parameters best describe the averaged timeseries of all the prices, going by the lowest AIC.  The second time is to find the mean-squared errors for five steps past a training set for the median ninth of the data (44th to 55th percentiles).  The third time is to generate predictions and 95% confidence intervals for the selected 20 RegionID's that had the smallest mean-squared errors for the two-year period following the last observed values.  Of these 20 RegionID's, the five with the highest percent change between the last observed value and the lower bound of the confidence interval of the last predicted value (the highest was -16%) were decided to be the best investments.
+The notebook reformatted the data into DataFrames and then used `SARIMAX` from `statsmodels` to make predictions three times.  The first time was to find which order and seasonal order parameters best described the averaged timeseries of all the prices, determined by the lowest AIC.  The second time was to find the mean-squared errors for five steps after the training set for the median ninth of the data (44th to 55th percentiles).  The third time was to generate predictions and 95% confidence intervals for the 20 `RegionID`'s with the smallest mean-squared errors for the two-year period following the latest observed values.  Of these 20 `RegionID`'s, the five with the highest percent change between the last observed value and the **lower** bound of the confidence interval of the last predicted value (the highest was -16%) were chosen to be the best investments.
 
 ### Figures
 
