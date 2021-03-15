@@ -4,7 +4,9 @@
 
 ## Introduction
 
-This was my submission for The Flatiron School's Module 4 Final Project, using house price data from Zillow provided by Learn.co and The Flatiron School. I used timeseries analysis to model, predict and determine the top five zipcodes in which to invest.
+This was my submission for The Flatiron School's Module 4 Final Project, using house price data from Zillow provided by Learn.co and The Flatiron School. I used timeseries analysis to model, predict and determine the top five zipcodes in which to invest. My selections were based on which areas would be the "safest bets".
+
+My criteria for a top area in which to invest depended on how well a `RegionID`'s prices fit the model and then how its lower bound of a 95% confidence interval after two years compared to its last observed value. In this way, I selected zip codes that I was most confident in predicting and that would not decrease in value as much as other areas in a worst-case scenario.
 
 ## Project
 This repository contains:
