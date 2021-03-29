@@ -21,6 +21,8 @@ This repository contains:
 
 The notebook reformatted the data into DataFrames and then used `SARIMAX` from `statsmodels` to make predictions three times.  The first time was to find which order and seasonal order parameters best described the averaged timeseries of all the prices, determined by the lowest AIC.  The second time was to find the mean-squared errors for five steps after the training set for the median ninth of the data (44th to 55th percentiles).  The third time was to generate predictions and 95% confidence intervals for the 20 `RegionID`'s with the smallest mean-squared errors for the two-year period following the latest observed values.  Of these 20 `RegionID`'s, the five with the highest percent change between the last observed value and the **lower** bound of the confidence interval of the last predicted value (the highest was -16%) were chosen to be the best investments.
 
+![A plot of lines with shaded areas, with each corresponding to one of 20 RegionID's and its 95% confidence interval over a two-year period](https://raw.githubusercontent.com/bronwencc/Module-4-Project/master/figures/20-RegionID-Forecasts.png)
+
 ### Figures
 
 The PNG images are to compare the 24-step (two years) forecasted values for the data as an average timeseries ([Average Forecast.png](https://github.com/bronwencc/Module-4-Project/blob/master/files/Average-Forecast.png)) and to see the confidence intervals of the 20 RegionID's with the smallest mean-squared error over the same period ([20 RegionID Forecasts.png](https://github.com/bronwencc/Module-4-Project/blob/master/files/20-RegionID-Forecasts.png)).
